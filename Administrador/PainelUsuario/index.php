@@ -18,7 +18,7 @@
 				<h1>Lista de Usuarios</h1>
 			</div>
 <a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
-	<img src="1200px-Power_bi_logo_black.svg.png">
+	<img src="css/img.png">
 </a>
 			<!-- Inicio Modal -->
 			<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
