@@ -34,13 +34,13 @@ include('conexao/verifica_login.php');
                           die("Falha de conexão " . mysqli_connect_error());
                       }
 
-                      $sql = "SELECT id, usuario, email, bloqueado FROM usuarios";
+                      $sql = "SELECT id, usuario, email FROM usuarios";
                       $result = mysqli_query($conexao, $sql);
 
                       if (mysqli_num_rows($result) > 0) {
                           // output data of each row
                           while($row = mysqli_fetch_assoc($result)) {
-                              cho $row["id"]. " - Nome: <b>" . $row["usuario"]. "</b> " . $row["email"]. "<b>" $row["bloqueado"].";
+                              echo $row["id"]. " - Nome: <b>" . $row["usuario"]. "</b> " . $row["email"]. "<br>";
                           }
                       } else {
                           echo "0 results";
