@@ -9,7 +9,7 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Modal</title>
+		<title>Painel Administrador</title>
 		<link href="css/bootstrap.min.css" rel="stylesheet">
 	</head>
 	<body>
@@ -83,6 +83,7 @@
 												<p><?php echo $rows_cursos['id']; ?></p>
 												<p><?php echo $rows_cursos['usuario']; ?></p>
 												<p><?php echo $rows_cursos['email']; ?></p>
+												<p><?php echo $rows_cursos['bloqueado']; ?></p>
 											</div>
 										</div>
 									</div>
