@@ -40,7 +40,7 @@ include('conexao/verifica_login.php');
                       if (mysqli_num_rows($result) > 0) {
                           // output data of each row
                           while($row = mysqli_fetch_assoc($result)) {
-                              cho $row["id"]. " - Nome: <b>" . $row["usuario"]. "</b> " . $row["email"]. "<b>" $row["bloqueado"]. "</b><br>";
+                              cho $row["id"]. " - Nome: <b>" . $row["usuario"]. "</b> " . $row["email"]. "<b>" $row["bloqueado"].";
                           }
                       } else {
                           echo "0 results";
