@@ -1,5 +1,5 @@
 <?php
-	include_once("conexao.php");
+	include_once("conexao/conexao.php");
 	$result_cursos = "SELECT * FROM usuarios";
 	$resultado_cursos = mysqli_query($conn, $result_cursos);
 ?>
@@ -15,7 +15,7 @@
 	<body>
 		<div class="container theme-showcase" role="main">
 			<div class="page-header">
-				<h1>Listar Cursos</h1>
+				<h1>Lista de Usuarios</h1>
 			</div>
 			<div class="pull-right">
 				<button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModalcad">Cadastrar</button>
@@ -26,7 +26,7 @@
 					<div class="modal-content">
 						<div class="modal-header">
 							<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-							<h4 class="modal-title text-center" id="myModalLabel">Cadastrar Curso</h4>
+							<h4 class="modal-title text-center" id="myModalLabel">Cadastrar Usuario</h4>
 						</div>
 						<div class="modal-body">
 							<form method="POST" action="http://localhost/Aula/processa_cad.php" enctype="multipart/form-data">
@@ -53,8 +53,8 @@
 					<table class="table">
 						<thead>
 							<tr>
-								<th>#</th>
-								<th>Nome do Curso</th>
+								<th>ID</th>
+								<th>Nome Usuario</th>
 								<th>Ação</th>
 							</tr>
 						</thead>

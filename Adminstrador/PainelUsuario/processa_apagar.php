@@ -3,7 +3,7 @@
 	
 	$id = $_GET['id'];
 	
-	$result_cursos = "DELETE FROM cursos WHERE id = '$id'";
+	$result_cursos = "DELETE FROM usuarios WHERE id = '$id'";
 	$resultado_cursos = mysqli_query($conn, $result_cursos);	
 ?>
 
@@ -16,14 +16,14 @@
 	<body> <?php
 		if(mysqli_affected_rows($conn) != 0){
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Aula/index.php'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=index.php'>
 				<script type=\"text/javascript\">
 					alert(\"Curso Apagado com Sucesso.\");
 				</script>
 			";	
 		}else{
 			echo "
-				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=http://localhost/Aula/index.php'>
+				<META HTTP-EQUIV=REFRESH CONTENT = '0;URL=index.php'>
 				<script type=\"text/javascript\">
 					alert(\"Curso não foi Apagado com Sucesso.\");
 				</script>
