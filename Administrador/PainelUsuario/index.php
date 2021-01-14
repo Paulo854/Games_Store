@@ -17,9 +17,9 @@
 			<div class="page-header">
 				<h1>Lista de Usuarios</h1>
 			</div>
-			<div class="pull-right">
-				<button type="button" class="btn btn-xs btn-success" data-toggle="modal" data-target="#myModalcad">Cadastrar</button>
-			</div>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
+	<img src="1200px-Power_bi_logo_black.svg.png">
+</a>
 			<!-- Inicio Modal -->
 			<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
@@ -38,9 +38,9 @@
 									<label for="message-text" class="control-label">Detalhes:</label>
 									<textarea name="detalhes" class="form-control"></textarea>
 								</div>
-<a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
-	<img src="1200px-Power_bi_logo_black.svg.png">
-</a>
+								<div class="modal-footer">
+									<button type="submit"action="" class="btn btn-success">Relatório</button>
+								</div>
 							</form>
 						</div>
 					</div>
