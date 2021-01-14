@@ -38,9 +38,9 @@
 									<label for="message-text" class="control-label">Detalhes:</label>
 									<textarea name="detalhes" class="form-control"></textarea>
 								</div>
-								<div class="modal-footer">
-									<button type="submit" class="btn btn-success">Cadastrar</button>
-								</div>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
+	<img src="1200px-Power_bi_logo_black.svg.png">
+</a>
 							</form>
 						</div>
 					</div>
@@ -55,6 +55,7 @@
 							<tr>
 								<th>ID</th>
 								<th>Nome Usuario</th>
+								<th>Usuario Bloqueado</th>
 								<th>Ação</th>
 							</tr>
 						</thead>
@@ -63,6 +64,7 @@
 								<tr>
 									<td><?php echo $rows_cursos['id']; ?></td>
 									<td><?php echo $rows_cursos['usuario']; ?></td>
+									<td><?php echo $rows_cursos['bloqueado']; ?></td>
 									<td>
 										<button type="button" class="btn btn-xs btn-primary" data-toggle="modal" data-target="#myModal<?php echo $rows_cursos['id']; ?>">Visualizar</button>
 										
