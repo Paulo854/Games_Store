@@ -17,10 +17,12 @@
 			<div class="page-header">
 				<h1>Lista de Usuarios</h1>
 			</div>
+			<div class="img">
 <a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
-	<img src="css/img.png">
+	<img src="css/img.png" width="10" height="10">
 </a>
-			<!-- Inicio Modal -->
+</div>
+		<!-- Inicio Modal -->
 			<div class="modal fade" id="myModalcad" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 				<div class="modal-dialog" role="document">
 					<div class="modal-content">
