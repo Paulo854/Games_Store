@@ -1,5 +1,5 @@
 <?php
-	include_once("conexao/conexao.php");
+	include_once("/conexao/conexao.php");
 	$result_cursos = "SELECT * FROM usuarios";
 	$resultado_cursos = mysqli_query($conn, $result_cursos);
 ?>

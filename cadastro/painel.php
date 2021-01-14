@@ -74,7 +74,7 @@ include('conexao/verifica_login.php');
 
                         </form>
 
-                        <h2><a href="/Adminitrador/PainelUsuario/index.php">Painel de ações usuarios</a></h2>
+                        <h2><a href="/Administrador/PainelUsuario/index.php">Painel de ações usuarios</a></h2>
 
                         <h2><a href="conexao/logout.php">Sair</a></h2>
 
