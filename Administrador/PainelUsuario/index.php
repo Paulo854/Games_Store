@@ -19,7 +19,7 @@
 			</div>
 			<div class="img">
 <a href="https://app.powerbi.com/view?r=eyJrIjoiZjRkZDMyYzUtZWNlMi00ZGYwLWFmZmEtYTQ3MDVjODQyMjExIiwidCI6IjhkODQwNjdkLTlhZDctNDU3Mi05YjEwLTEzM2QzNjQ2MmFhYSIsImMiOjF9">
-	<img src="css/img.png" width="10" height="10">
+	<img src="css/img.png" width="50" height="50">
 </a>
 </div>
 		<!-- Inicio Modal -->
